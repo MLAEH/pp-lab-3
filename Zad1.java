@@ -20,7 +20,13 @@ public class Zad1 {
 
         for(p=0;p<o;p++){
             średnia +=oceny[p];
-        }    
+        }
+        System.out.print("Oceny z "+przedmiot+':');
+        for(p=0;p<o;p++){
+            System.out.print(oceny[p]+", ");
+        } 
+        System.out.println(" ");   
+        System.out.println("Suma ocen z "+przedmiot+" wynosi:"+średnia);
         średnia=średnia/o;
         System.out.print("średnia z "+przedmiot+" wynosi:"+średnia);
     }
